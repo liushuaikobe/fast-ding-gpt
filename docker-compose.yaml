@@ -1,0 +1,9 @@
+version: "3.0"
+services:
+  fast-ding-gpt:
+    image: fast-ding-gpt
+    container_name: fast-ding-gpt
+    volumes:
+      - /volume1/docker/fast-ding-gpt/app:/app
+    ports:
+      - 8088:80
